@@ -8,7 +8,7 @@ En estos ejercicios del Máster GIS Online, impartido por Esri España, veremos 
 - Función en JS para sumar los valores pares de un Array de números enteros
 - Función en JS para resetear el array creado por el usuario, así como los detalles visuales
 - Se añaden detalles del front-end como:
--- Campos de input para solicitar valores al usuario.
--- Visualización de resultados mientras se ejecuta la herramienta.
--- Estilos de encabezado y tipografías
--- Pie de página con créditos del desarrollador
+    - Campos de input para solicitar valores al usuario.
+    - Visualización de resultados mientras se ejecuta la herramienta.
+    - Estilos de encabezado y tipografías
+    - Pie de página con créditos del desarrollador
