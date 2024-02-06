@@ -45,15 +45,19 @@ Se solicita: Utilizando el array users definido en el enunciado, pinta en la con
 - Se mandan alertas si no hay usuarios creados.
 
 ![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/597e6f30-0813-4016-bc02-5ed95357df82)
+
 *Figura 6: Vista previa de la interfaz de creación y muestra de usuarios.*
 
 ![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/f332e34c-214f-4c65-87ec-e90616918fad)
+
 *Figura 7: Añadimos información en el formulario y se crea un usuario satisfactoriamente. Tras la alerta, se limpia el formulario.*
 
 ![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/f68a2911-e399-45db-87f7-b7687008cce1)
+
 *Figura 8: El botón "Mostrar Usuarios" muestra la totalidad de los usuarios creados por el Front. Si no se crean usuarios previamente, no mostrará nada y lanzará una alerta. Para este ejemplo se introducen de forma manual los datos del enunciado.*
 
-![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/241cc3ca-5872-41da-9581-c78d17d79ab7)
+![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/7403e460-9592-4184-b865-9d4bf060d3a2)
+
 *Figura 9: El botón "Mostrar Usuarios (No Premium)" muestra sólo los usuarios del plan gratuito, y lanza por consola aquellos que son Premium.*
 
 
