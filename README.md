@@ -77,3 +77,30 @@ Se solicita: Mostrar por el front al final de la página los resultados utilizan
 ![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/e4cf14e8-9ea3-40ff-984d-0c881c3b4af0)
 
 *Figura 11: Se incorpora el botón de "Ver resultados" que ejecutará crear un nodo con la información necesaria y añadirlo al final del HTML. Podemos comprobar que hay un total de 6 enlaces, el penúltimo enlace es correcto y el tercer párrafo efectivamente tiene 2 enlaces.*
+
+### Ejercicio 18: Eventos
+
+- Cuando hacemos click sobre el botón de guardar aparecerá un alert de "Guardado".
+- Cuando hagamos foco sobre el input del nombre el fondo será de un color y cuando se lo quitemos, de otro.
+- Dependiendo de si escribimos una vocal o una consonante en el segundo input su contenido se mostrará de un color distinto.
+- Se trabaja con expresiones regulares para este último apartado.
+
+![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/a4ef8380-64fe-4707-b3ea-cbb9552946e0)
+
+*Figura 12: Estructura base del HTML con los estilos personalizados. Tenemos un botón de guardar y 2 inputs que realizan ciertas funcionalidades.*
+
+![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/92bd7a81-a423-4a05-8fda-044d2064c0a6)
+
+*Figura 13: Cuando le damos a guardar se muestra una alerta con el mensaje "Mensaje guardado".*
+
+![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/899f97d7-b77d-46b0-aa61-af993eadfcd1)
+
+*Figura 14: Cuando hacemos foco en el input, cambia de color a 'lightyellow'. Esta propiedad está definida en la propia función y se puede cambiar directamente en el HTML.*
+
+![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/73f29010-7e86-4496-b5e6-7b34c3485618)
+
+*Figura 15: Cambio de fondo a color rojo del input por haber escrito una vocal.Según la expresión regular que hemos definido en el JS, siempre que haya al menos una vocal se mostrará rojo.*
+
+![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/976835d9-6af6-47e8-9f2f-175480b6d94e)
+
+*Figura 16: Cambio de fondo a color amarillo del input por haber escrito una consonante.*
