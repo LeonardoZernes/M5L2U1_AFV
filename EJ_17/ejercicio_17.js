@@ -1,0 +1,1 @@
+// Funciones relacionadas con el Ejercicio 17: Manejo del DOM
