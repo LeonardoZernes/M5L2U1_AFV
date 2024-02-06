@@ -60,4 +60,20 @@ Se solicita: Utilizando el array users definido en el enunciado, pinta en la con
 
 *Figura 9: El botón "Mostrar Usuarios (No Premium)" muestra sólo los usuarios del plan gratuito, y lanza por consola aquellos que son Premium.*
 
+### Ejercicio 17: Manejo del DOM
 
+Se solicita: Mostrar por el front al final de la página los resultados utilizando innerHTML y creando un nodo.
+
+- Se incorpora botón de "Ver resultados".
+- Se muestra el número de enlaces de la página.
+- Se muestra la dirección a la que enlanza el penúltimo enlace del HTML.
+- Se muestra el número de enlaces del tercer párrafo.
+- Se comprueba que haya al menos 3 párrafos para hacer la función anterior, si no levanta alerta.
+
+![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/cd62e903-6575-4aef-a6aa-60bdd8bb185d)
+
+*Figura 10: Estructura general del ejercicio con los contenidos exigidos por el enunciado.*
+
+![image](https://github.com/LeonardoZernes/M5L2U1_AFV/assets/60662663/e4cf14e8-9ea3-40ff-984d-0c881c3b4af0)
+
+*Figura 11: Se incorpora el botón de "Ver resultados" que ejecutará crear un nodo con la información necesaria y añadirlo al final del HTML. Podemos comprobar que hay un total de 6 enlaces, el penúltimo enlace es correcto y el tercer párrafo efectivamente tiene 2 enlaces.*
