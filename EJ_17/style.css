@@ -47,7 +47,7 @@ button:hover {
 
 /* ESTILOS DEL PIE DE PÁGINA */
 .footer {
-    position: relative;
+    position: absolute;
     left: 0 ; 
     right: 0; 
     bottom: 0; 
