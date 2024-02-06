@@ -19,12 +19,17 @@ function crearUsuario() {
 
     // Limpiamos el formulario del front
     document.getElementById("crearUsuario").reset();
+    alert("Usuario creado con éxito")
 }
 
 /*Creamos una función que, con una lista de usuarios y un objeto del DOM
 sea capaz de crear hijos de estilo párrafo con los datos de los todos los usuarios */
 function datosUsuariosDOM(lista, contenedor) {
-    for (user of lista) {
+    // Comprobamos que la lista de usuarios suministrada no está vacía
+    if (lista.length === 0){
+        alert("No existe ningún registro de usuario ¡Ánimate y crea uno nuevo!");
+    } else {
+        for (user of lista) {
         //Preparamos el texto que saldrá por el front
         if (user.premium == "true") {
             modalidad = "Plan Premium"
@@ -40,6 +45,7 @@ function datosUsuariosDOM(lista, contenedor) {
         
         //Añadimos el elemento al indicador DOM suminsitrado como un hijo
         contenedor.appendChild(listadoUsuarios);
+        }
     }
 }
 
@@ -63,7 +69,7 @@ function mostrarUsuariosNoPremium() {
     let usuariosNoPremium = []
 
     for (user of usuarios) {
-        if (user.premium) {
+        if (user.premium == "true") {
             // Imprimimos por consola según pide el enunciado los usuarios premium
             console.log(user);
         }
@@ -72,6 +78,13 @@ function mostrarUsuariosNoPremium() {
             usuariosNoPremium.push(user);
         }
     }
-    // Llamamos a la función de mostrar los datos en el front
+
+    // Comprobamos que el array no esté vacío, es decir, no tenga usuarios con el plan gratis
+    if (usuariosNoPremium.length === 0) {
+        alert("No existe ningún registro de usuario gratuito ¡Ánimate y crea uno nuevo!");
+    } else {
+        // Llamamos a la función de mostrar los datos en el front
     datosUsuariosDOM(usuariosNoPremium, contenedor);
+    }
+    
 }
