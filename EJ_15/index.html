@@ -14,7 +14,30 @@
         <h1>Ejercicio 15: Usuarios premium</h1>
     </div>
     <div class="cuerpo">
-        
+        <div>
+            <h2>Creación de usuarios</h2>
+            <form id="crearUsuario">
+                <div class="campos">
+                    <p>Nombre de usuario: </p>
+                    <p>Edad: </p>
+                    <p>Modalidad: </p>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="nombreUsuario"><br>
+                    <input type="number" name="edad" id="edad"><br>
+                    <select name="premium" id="premium"><br>
+                        <option value="">-- Elija una modalidad --</option>
+                        <option value="true">Plan Premium</option>
+                        <option value="false">Plan Gratuito</option>
+                    </select>
+                </div>
+            </form>
+            <button class="botonCrear" onclick="crearUsuario()">Crear Usuario</button>
+            <button class="botonMostrar" onclick="mostrarUsuarios()">Mostrar Usuarios</button>
+            <button class="botonMostrar" onclick="mostrarUsuariosNoPremium()">Mostrar Usuarios (No Premium)</button>
+
+        </div>
+        <div id="listado_usuarios"></div>
     </div>
     <div class="footer">
         © Adrián Fernández Vázquez, Máster GIS Online - 2024

@@ -9,6 +9,9 @@ h1 {
     color: white;
     font-style: italic;
 }
+h2 {
+    margin-bottom: 2px;
+}
 .encabezado {
     display: inline-flex;
     background-color: darkmagenta;
@@ -21,42 +24,55 @@ img {
     height: 50px;
 }
 .cuerpo {
-    margin: 20px;
+    margin: 30px;
 }
-.flex {
+#crearUsuario {
     display: flex;
-    margin-bottom: 10px;
+    height: fit-content;
+    width: 100%;
 }
-.texto-log {
-    color: green;
-    font-style: italic;
+.campos {
+    width: 170px;
 }
+.campos p {
+    margin: 20px 0 20px 0;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputs input {
+    padding: 2px;
+}
+
 button {
-    background-color: brown;
+    background-color: darkmagenta;
     border: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
     padding: 10px;
     transition: 0.5s;
+    box-shadow: 2px 2px 2px grey;
+    margin: 5px;
 }
 button:hover {
-    background-color: lightblue;
-    color:brown;
+    background-color: lightgreen;
+    color:darkmagenta;
     transition: 0.5s;
 }
-#numero {
-    width: 50%;
-    padding: 5px;
+
+#listado_usuarios {
+    margin-top: 20px;
 }
-#addNumButton {
-    margin-left: 10px;
-    padding: 10px;
+.botonMostrar {
+    background-color: rgb(151, 114, 151);
 }
-#resultado {
-    font-size: xx-large;
-    font-weight: bold;
-    color: brown;
+.botonMostrar:hover {
+    background-color: aliceblue;
+    color: rgb(151, 114, 151);
+    transition: 0.5s;
 }
 
 /* ESTILOS DEL PIE DE PÁGINA */
