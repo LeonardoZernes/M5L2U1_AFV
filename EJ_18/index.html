@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS</title>
+    <script type="text/javascript" src="ejercicio_18.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/7/7e/ArcGIS_logo_%28cropped%29.png">
+</head>
+<body>
+    <div class="encabezado">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/ArcGIS_logo_%28cropped%29.png" alt="img_ESRI">
+        <h1>Ejercicio 18: Eventos</h1>
+    </div>
+    <div class="cuerpo">
+        <h2>Eventos</h2>
+        <p>Haz que cuando se haga click sobre el botón “Guardar”, salté un alert con un mensaje
+            de guardado.</p>
+        <!-- Se añade el código JS en la misma línea del botón, función simple -->
+        <button onclick="alert('Mensaje guardado')">Guardar</button>
+        <br>
+        <br>
+        <p>Cuando hagamos foco sobre este input se pondrá de color amarillo y cuando se lo 
+            quitemos cambiará de color</p>
+        <label>Nombre</label>
+        <!-- Especificamos en la misma función los valores de 'id' y color -->
+        <input id="amarillo" type=”text” onfocus="cambioFondo('amarillo', 'lightyellow')" onfocusout="cambioFondo('amarillo', 'white')"/>
+        <br>
+        <br>
+        <p>Dependiendo si escribamos una vocal o una consonante el contenido del input 
+            aparecerá de distinto color</p>
+        <label>Escribe una letra</label>
+        <input id="letras" type=”text” onkeyup="valoracionLetra()"/>
+    </div>
+    <div class="footer">
+        © Adrián Fernández Vázquez, Máster GIS Online - 2024
+    </div>
+</body>
+</html>
